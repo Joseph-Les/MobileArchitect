@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color definitions -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Box colors -->
+    <color name="Black">#000000</color>
+
+    <!-- Background color definition -->
+    <color name="backgroundLightBlack">#0A0A30</color>
+</resources>

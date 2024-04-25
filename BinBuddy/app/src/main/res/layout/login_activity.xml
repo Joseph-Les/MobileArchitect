@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".LoginActivity"
+    android:background="@color/backgroundLightBlack">
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_enter_email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="8dp"
+        android:textSize="17sp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textColor="@color/white"
+        android:autofillHints="emailAddress" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_enter_password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:autofillHints="password" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/Black"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Create Account Button -->
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:textColor="@color/Black"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
